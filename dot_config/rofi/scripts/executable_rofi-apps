@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+#
+# Rofi powered menu to start apps.
+# Uses: rofi
+
+rofi -theme-str '@import "apps.rasi"' \
+     -no-lazy-grab \
+     -combi-modi window,drun -show combi -modi combi
+     # -show drun
