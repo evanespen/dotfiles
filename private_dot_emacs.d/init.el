@@ -17,7 +17,7 @@
  '(ivy-mode t)
  '(line-number-mode nil)
  '(package-selected-packages
-   '(svelte-mode web-mode emmet-mode emmet pyvenv company ivy yasnippet rainbow-delimiters yaml-mode dockerfile-mode ox-gfm lsp-pyright which-key dap-mode lsp-ivy lsp-ui lsp-mode default-text-scale ace-window vterm all-the-icons highlight-thing smex textsize ox-ioslide emojify multiple-cursors ox-reveal undo-tree vundo yasnippet-snippets org-bullets ivy-rich counsel helm doom-modeline elpy smartparens doom-themes use-package))
+   '(rainbow-mode svelte-mode web-mode emmet-mode emmet pyvenv company ivy yasnippet rainbow-delimiters yaml-mode dockerfile-mode ox-gfm lsp-pyright which-key dap-mode lsp-ivy lsp-ui lsp-mode default-text-scale ace-window vterm all-the-icons highlight-thing smex textsize ox-ioslide emojify multiple-cursors ox-reveal undo-tree vundo yasnippet-snippets org-bullets ivy-rich counsel helm doom-modeline elpy smartparens doom-themes use-package))
  '(tetris-tty-colors
    ["light slate blue" "white" "gold" "magenta" "cyan" "green" "red"]))
 (custom-set-faces
@@ -26,11 +26,13 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(set-frame-font "Hasklug Nerd Font Mono 12" nil t)
+
 
 
 (setq inhibit-startup-message t) 
 (menu-bar-mode -1) 
-(toggle-scroll-bar -1) 
+(scroll-bar-mode -1) 
 (tool-bar-mode -1)
 (delete-selection-mode)
 (show-paren-mode 1)
