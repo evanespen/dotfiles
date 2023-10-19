@@ -1,0 +1,14 @@
+"amixer -D pulse sset Master 5%+"
+       b:7
+
+"amixer -D pulse sset Master 5%-"
+       b:6
+
+"playerctl next"
+       b:8
+
+"playerctl previous"
+       b:9
+       
+"playerctl play-pause"
+       b:9
